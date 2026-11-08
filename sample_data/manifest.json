@@ -1,0 +1,241 @@
+{
+  "schema_version": 1,
+  "run_id": "20261108T185359Z-e630bf45",
+  "built_at": "2026-11-08T18:53:59.451745+00:00",
+  "geography": "United States",
+  "common_years": [
+    1984,
+    2024
+  ],
+  "marriage_latest": 2025,
+  "living_latest": 2023,
+  "offline_build": true,
+  "sources": {
+    "income": {
+      "key": "income",
+      "filename": "MEHOINUSA646N.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MEHOINUSA646N&cosd=1960-01-01",
+      "title": "Median household income",
+      "publisher": "Census CPS ASEC via FRED",
+      "units": "current USD / household / year",
+      "frequency": "annual",
+      "minimum_observations": 1,
+      "sha256": "2052185cf05506b963bfe3aaee5dbbc1783e1518b144b74ecd85058b43de4bfc",
+      "bytes": 745,
+      "raw_path": "raw/objects/2052185cf05506b963bfe3aaee5dbbc1783e1518b144b74ecd85058b43de4bfc.csv",
+      "fetched_at": "2026-11-08T18:50:53.961464+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1984-01-01",
+        "last": "2025-01-01",
+        "rows": 42
+      }
+    },
+    "home_price": {
+      "key": "home_price",
+      "filename": "MSPUS.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MSPUS&cosd=1960-01-01",
+      "title": "Median sales price of new houses sold",
+      "publisher": "Census / HUD via FRED",
+      "units": "current USD",
+      "frequency": "quarterly",
+      "minimum_observations": 4,
+      "sha256": "a9f5886d44aeb6f0bbb14d823b1c2b397e8fb7775fb47b6dfd4c67073fdbea32",
+      "bytes": 4516,
+      "raw_path": "raw/objects/a9f5886d44aeb6f0bbb14d823b1c2b397e8fb7775fb47b6dfd4c67073fdbea32.csv",
+      "fetched_at": "2026-11-08T18:50:53.687114+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1963-01-01",
+        "last": "2026-07-01",
+        "rows": 255
+      }
+    },
+    "cpi": {
+      "key": "cpi",
+      "filename": "CPIAUCSL.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=1960-01-01",
+      "title": "All-items CPI-U",
+      "publisher": "BLS via FRED",
+      "units": "index, 1982\u201384=100, seasonally adjusted",
+      "frequency": "monthly",
+      "minimum_observations": 12,
+      "sha256": "f4cca5da382b1d8e3f55b2925f01051480f029528b948cf5c501cf08c4557bbd",
+      "bytes": 14955,
+      "raw_path": "raw/objects/f4cca5da382b1d8e3f55b2925f01051480f029528b948cf5c501cf08c4557bbd.csv",
+      "fetched_at": "2026-11-08T18:50:53.875151+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1960-01-01",
+        "last": "2026-09-01",
+        "rows": 800
+      }
+    },
+    "mortgage_rate": {
+      "key": "mortgage_rate",
+      "filename": "MORTGAGE30US.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=MORTGAGE30US&cosd=1960-01-01",
+      "title": "30-year fixed mortgage rate",
+      "publisher": "Freddie Mac PMMS via FRED",
+      "units": "percent / year",
+      "frequency": "weekly",
+      "minimum_observations": 50,
+      "sha256": "ad70dc8ffe5ac59efc5c597b34edeb0c644a378c5734c0923a9a512c27c6b2b7",
+      "bytes": 47027,
+      "raw_path": "raw/objects/ad70dc8ffe5ac59efc5c597b34edeb0c644a378c5734c0923a9a512c27c6b2b7.csv",
+      "fetched_at": "2026-11-08T18:50:53.865531+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1971-04-02",
+        "last": "2026-11-05",
+        "rows": 2902
+      }
+    },
+    "rent": {
+      "key": "rent",
+      "filename": "CUSR0000SEHA.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CUSR0000SEHA&cosd=1960-01-01",
+      "title": "CPI: rent of primary residence",
+      "publisher": "BLS via FRED",
+      "units": "price index, seasonally adjusted",
+      "frequency": "monthly",
+      "minimum_observations": 12,
+      "sha256": "957d991c6e2eed86a7e7f9bc6bfaffa62230c6d52cc33e264d619e89a01317f5",
+      "bytes": 10424,
+      "raw_path": "raw/objects/957d991c6e2eed86a7e7f9bc6bfaffa62230c6d52cc33e264d619e89a01317f5.csv",
+      "fetched_at": "2026-11-08T18:50:54.185172+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1981-01-01",
+        "last": "2026-09-01",
+        "rows": 548
+      }
+    },
+    "energy": {
+      "key": "energy",
+      "filename": "CPIENGSL.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIENGSL&cosd=1960-01-01",
+      "title": "CPI: energy",
+      "publisher": "BLS via FRED",
+      "units": "price index, seasonally adjusted",
+      "frequency": "monthly",
+      "minimum_observations": 12,
+      "sha256": "9568e8d66834490c6ff0060b3230d9a4ff82a29dcd08c1d0e7d51d304ad613ee",
+      "bytes": 14909,
+      "raw_path": "raw/objects/9568e8d66834490c6ff0060b3230d9a4ff82a29dcd08c1d0e7d51d304ad613ee.csv",
+      "fetched_at": "2026-11-08T18:50:54.360379+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1960-01-01",
+        "last": "2026-09-01",
+        "rows": 800
+      }
+    },
+    "food": {
+      "key": "food",
+      "filename": "CUSR0000SAF11.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CUSR0000SAF11&cosd=1960-01-01",
+      "title": "CPI: food at home",
+      "publisher": "BLS via FRED",
+      "units": "price index, seasonally adjusted",
+      "frequency": "monthly",
+      "minimum_observations": 12,
+      "sha256": "ce057a7d8a1be4e38a08749239ca3b1e8d337edb8703a2db7e77f24313e1e8d0",
+      "bytes": 14956,
+      "raw_path": "raw/objects/ce057a7d8a1be4e38a08749239ca3b1e8d337edb8703a2db7e77f24313e1e8d0.csv",
+      "fetched_at": "2026-11-08T18:50:54.487786+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1960-01-01",
+        "last": "2026-09-01",
+        "rows": 800
+      }
+    },
+    "wage": {
+      "key": "wage",
+      "filename": "AHETPI.csv",
+      "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=AHETPI&cosd=1960-01-01",
+      "title": "Average hourly earnings, production and nonsupervisory employees, total private",
+      "publisher": "BLS via FRED",
+      "units": "current USD / hour, seasonally adjusted",
+      "frequency": "monthly",
+      "minimum_observations": 12,
+      "sha256": "54d8fb85836b34d675559812fd6993ee9b16d2130319eed5c0ffbca05d438472",
+      "bytes": 12530,
+      "raw_path": "raw/objects/54d8fb85836b34d675559812fd6993ee9b16d2130319eed5c0ffbca05d438472.csv",
+      "fetched_at": "2026-11-08T18:50:54.528007+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": "1964-01-01",
+        "last": "2026-10-01",
+        "rows": 754
+      }
+    },
+    "marriage_age": {
+      "key": "marriage_age",
+      "filename": "ms2.xls",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/marital/ms2.xls",
+      "title": "MS-2: estimated median age at first marriage",
+      "publisher": "Census CPS / historical censuses",
+      "units": "years of age",
+      "frequency": "annual / historical benchmarks",
+      "minimum_observations": 1,
+      "sha256": "9ca9fb2e1a49ba1a32182425e8dd2d666ce64f696f6ef1e63e2f274506188e9c",
+      "bytes": 34304,
+      "raw_path": "raw/objects/9ca9fb2e1a49ba1a32182425e8dd2d666ce64f696f6ef1e63e2f274506188e9c.xls",
+      "fetched_at": "2026-11-08T18:50:54.388090+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": 1947,
+        "last": 2025,
+        "rows": 158
+      }
+    },
+    "living_18-24": {
+      "key": "living_18-24",
+      "filename": "ad3-18-24.xls",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/adults/ad3-18-24.xls",
+      "title": "AD-3: living arrangements, ages 18-24",
+      "publisher": "Census CPS ASEC",
+      "units": "percent within age and sex; population in thousands",
+      "frequency": "annual / historical benchmarks",
+      "minimum_observations": 1,
+      "sha256": "fab09f0f4a82d585a6c5c9bd1dc6106a4840742ea042381190d94335cfc65ce4",
+      "bytes": 43520,
+      "raw_path": "raw/objects/fab09f0f4a82d585a6c5c9bd1dc6106a4840742ea042381190d94335cfc65ce4.xls",
+      "fetched_at": "2026-11-08T18:50:54.468914+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": 1967,
+        "last": 2023,
+        "rows": 171
+      }
+    },
+    "living_25-34": {
+      "key": "living_25-34",
+      "filename": "ad3-25-34.xls",
+      "url": "https://www2.census.gov/programs-surveys/demo/tables/families/time-series/adults/ad3-25-34.xls",
+      "title": "AD-3: living arrangements, ages 25-34",
+      "publisher": "Census CPS ASEC",
+      "units": "percent within age and sex; population in thousands",
+      "frequency": "annual / historical benchmarks",
+      "minimum_observations": 1,
+      "sha256": "43d95703ff447b53927cbc32d42afc0d052aaf82f335f19b227c1e9a1f3f3ce5",
+      "bytes": 44032,
+      "raw_path": "raw/objects/43d95703ff447b53927cbc32d42afc0d052aaf82f335f19b227c1e9a1f3f3ce5.xls",
+      "fetched_at": "2026-11-08T18:50:54.485262+00:00",
+      "status": "offline cache",
+      "coverage": {
+        "first": 1967,
+        "last": 2023,
+        "rows": 171
+      }
+    }
+  },
+  "artifacts": {
+    "annual.csv": "09a19389652b50ef9c808cce0c287b955419cfb950c33dc866af8dd978a0c9a7",
+    "living.csv": "f42978a3c758dea9bb3f150301ed9c900371f949907f99c013fac86c2338758d",
+    "marriage.csv": "52fa5a5edafff3ec5cb1d0c188693245e5cad7893c1975b3a9b6bc1d38596db3",
+    "observations.csv": "7ae060b348d8b309e7b6b6d817558e641723bb9a7ab722bdd6c7d48cb3d2ed89"
+  }
+}
